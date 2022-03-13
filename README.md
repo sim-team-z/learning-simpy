@@ -17,12 +17,13 @@ learning simpy, its gaps and strengths, write a simple user guide, and illustrat
 
 #### How to model the outflow from the shelter. 
 
-That only can happen if 
-(a) the environment is better to go back to; there is reconciliation, or  
+That only can happen if
+
+- the environment is better to go back to; there is reconciliation, or  
 	- (one faster rate but certain proportion X)
-(b) the woman is able to find, and prefers moving to, an alternate option (family etc) 
+- the woman is able to find, and prefers moving to, an alternate option (family etc) 
 	- (another a bit slower rate and certain proportion Y)
-(c) the woman is able to get on her feet and able to earn. The women's shelter provides vocational education and options associated with the community colleges to help such women. (this may always not be a viable option depending on the circumstances of the client)
+- the woman is able to get on her feet and able to earn. The women's shelter provides vocational education and options associated with the community colleges to help such women. (this may always not be a viable option depending on the circumstances of the client)
 	- (the slowest outbound rate, with certain proportion Z)
 
 The shelter does not force any of its client out ever, so the outflow is completely variable and needs to be modeled as well.
