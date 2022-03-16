@@ -11,7 +11,7 @@ This model attempts to simulate the current scenario and simulate the distributi
 
 ### Workflow Diagram
 
-![The workflow for clients coming into the shelter](/images/shelter-workflow "Shelter Workflow")
+![The workflow for clients coming into the shelter](images/shelter-workflow.png "Shelter Workflow")
 
 
 ### Workflow details
