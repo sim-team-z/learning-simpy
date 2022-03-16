@@ -4,3 +4,4 @@ sklearn
 jupyter
 matplotlib
 simpy
+diagrams

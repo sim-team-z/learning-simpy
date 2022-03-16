@@ -2,29 +2,37 @@
 learning simpy, its gaps and strengths, write a simple user guide, and illustrating using a sample demo model
 
 
-### simulation problem (women's shelter)
+## Simulation Problem (non-profit women's shelter)
+
+The non-profit women's foundation we volunteer with provides services for abused women in North Texas. One of the services is to provide a safe shelter for the women and their families.
+The foundation is now at capacity with their shelter. It is actively seeking to apply for a loan create another shelter. The cost of the new shelter is directly proportional to the number of beds. Therefore, it has to determine, and explain in the business case, the optimum number of beds to cater for the growing needs.
+
+This model attempts to simulate the current scenario and simulate the distribution of families this organization has to turn away because of current capacity constraints.
+
+### Workflow Diagram
+
+![The workflow for clients coming into the shelter](/images/shelter-workflow "Shelter Workflow")
+
+
+### Workflow details
 
 - An abused women's shelter has to take in women and often their young children to protect them from the abuser. 
-- Several times, there are more clients than the beds at a shelter place, and that is when this women's shelter has to book hotel rooms as overflow for the clients. 
-
-1. Hotel rooms are always more expensive than the shelter
-2. always have fluctuating prices sometimes not available, or have fluctating prices
-3. The women's shelter does have access to government funds but only on a quarterly and annual basis.
-4. Hotel costs  Therefore, they need to pre-emptively account for the cost of hotel rooms, and make a request in a government grant.
-5. It is important to be not too ask too much in the grant ask else they can get penalized next time; they have to submit receipts/proof of the engagement to the government every quarter to continue receiving money.
-
+- Several times, there are more clients than the beds at a shelter place, and that is when this women's shelter has to either talk to the victim's other family members to take them, or if the issue is life threatening, take them into a private undisclosed hotel.
+- In the pandemic the foundation had to refer 30-40 clients/months clients because of capacity problems
+- Over the last 6 months, the number has dropped to 15-20 clients.
 
 
 #### How to model the outflow from the shelter. 
 
-That only can happen if
+The clients successfully leave the shelter in 4 scenarios:
 
-- the environment is better to go back to; there is reconciliation, or  
-	- (one faster rate but certain proportion X)
-- the woman is able to find, and prefers moving to, an alternate option (family etc) 
-	- (another a bit slower rate and certain proportion Y)
-- the woman is able to get on her feet and able to earn. The women's shelter provides vocational education and options associated with the community colleges to help such women. (this may always not be a viable option depending on the circumstances of the client)
-	- (the slowest outbound rate, with certain proportion Z)
+1. Capable and quickly back on their feet: 
+
+2. Language and cultural barrier: 
+
+3. Mental barrier: 
+
+4. Skills barrier: The women's shelter provides funds for vocational education and options associated with the community colleges to help such women. (this may always not be a viable option depending on the circumstances of the client)
 
 The shelter does not force any of its client out ever, so the outflow is completely variable and needs to be modeled as well.
 
