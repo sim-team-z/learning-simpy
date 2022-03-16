@@ -24,19 +24,24 @@ This model attempts to simulate the current scenario and simulate the distributi
 
 #### How to model the outflow from the shelter. 
 
-The clients successfully leave the shelter in 4 scenarios:
 
-1. Capable and quickly back on their feet: 
+The shelter does not force any of its client out ever, so the outflow is completely variable and needs to be modeled as well. The clients successfully leave the shelter in 4 scenarios:
 
-2. Language and cultural barrier: 
+1. **Capable and quickly back on their feet:** These women have occupational skills, know the culture, the english language, and are mobile. They just need a short respite at the shelter until they collect themselves and they are back on their feet quickly.
+- Stay at shelter: These women generally leave the shelter betweem 1 week to 2 months.
 
-3. Mental barrier: 
+2. **Language and cultural barrier:** Some women may not even know how to speak proper english, or read or write english. They may also not know how to drive. In these circumstances, the organization provides opportunities for driving and other basic language training to get these women to start becoming self-sufficient. 
+- Stay at shelter: These women and their families may have the longest stay in the shelter, ranging from 9-12 months.
 
-4. Skills barrier: The women's shelter provides funds for vocational education and options associated with the community colleges to help such women. (this may always not be a viable option depending on the circumstances of the client)
+3. **Mental barrier:** Some women are not self-confident to take on providing for their families, as they may have never done it, or not done it for a long time. For them, this organization provides counseling and coaching services to build up their confidence. Along with such services, other vocational training opportunities are also provided to these women.
+- Stay at shelter: These women are not starting from the cohort in Group 2, but still have a considerable journey ahead of them to become self-confident and then self-sufficient, They can end up staying at the shelter for 4-6 months but for some, the stay can also a long tail approach 9months.
 
-The shelter does not force any of its client out ever, so the outflow is completely variable and needs to be modeled as well.
+4. **Skills barrier:** These women want to be on their own, and have the motivation and desire. However they may not have the required skillset to provide for their families. The women's shelter provides funds for vocational education and options associated with the community colleges to help such women. (this may always not be a viable option depending on the circumstances of the client)
+- Stay at shelter: These women are typically back on their feet independently between 2-6 months.
 
-other notes:
+
+
+### other notes:
 
 - these events are happening over days of year (so thats a decent granularity/time horizone)
 - there are other costs, like travel (Uber), food etc which also are related to whether the woman lives at a shelter or at a hotel room
