@@ -82,3 +82,8 @@ knail1s-MBP.home [learning-simpy]$ . venv/bin/activate
 ```
 [learning-simpy]$ jupyter notebook
 ```
+
+
+for using the extra notebook modules installed check out:
+
+- Turbocharing jupyter [notebooks](https://towardsdatascience.com/supercharging-jupyter-notebooks-e22f5ad7ca18)
