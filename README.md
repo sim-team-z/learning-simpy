@@ -1,5 +1,5 @@
-# learning-simpy
-learning simpy, its gaps and strengths, write a simple user guide, and illustrating using a sample demo model
+# Shelter Simulation Using Simpy
+The objective of this project is to "learn by doing". We attempt to simulate an abused women shelter using Python's simpy library.
 
 
 ## Simulation Problem (non-profit women's shelter)
@@ -45,6 +45,13 @@ The shelter does not force any of its client out ever, so the outflow is complet
 
 Maintained [here](https://docs.google.com/spreadsheets/d/1JxEUYGeIJr_GaAnwlvuwT7JyXx9fI1BQMFuis9mdcBY/edit#gid=0)
 
+
+### Future Plans:
+
+- reverse engineer the real-world parameters
+- run sensitivity analysis (15-75 beds) to find optimum # of beds which is not turning away clients and also not underutilized.
+- model stay duration for mental impacted patients based on beta distribution
+- use advanced NHPP code (bottom of final v8 jupyter notebook) to model incoming client arrivals
 
 ### other notes:
 
