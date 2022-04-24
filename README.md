@@ -45,7 +45,8 @@ The shelter does not force any of its client out ever, so the outflow is complet
 
 All the code was written in jupyter notebooks. The progression of sophistication of the model  can be seen  from v1 to v8 of the notebooks in this [directory](https://github.com/sim-team-z/learning-simpy/tree/main/notebooks)
 
-The final notebook for the submission of the project is [here](https://github.com/sim-team-z/learning-simpy/blob/main/notebooks/FINAL_08_shelter-model.ipynb)
+- The final notebook for the submission of the project is [here](https://github.com/sim-team-z/learning-simpy/blob/main/notebooks/FINAL_08_shelter-model.ipynb)
+- The tabular output of the data is [here](https://github.com/sim-team-z/learning-simpy/tree/main/notebooks)
 
 
 ### todo list:
