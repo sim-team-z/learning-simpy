@@ -41,6 +41,13 @@ The shelter does not force any of its client out ever, so the outflow is complet
 - Stay at shelter: These women are typically back on their feet independently between 2-6 months.
 
 
+#### Code 
+
+All the code was written in jupyter notebooks. The progression of sophistication of the model  can be seen  from v1 to v8 of the notebooks in this [directory](https://github.com/sim-team-z/learning-simpy/tree/main/notebooks)
+
+The final notebook for the submission of the project is [here]
+
+
 ### todo list:
 
 Maintained [here](https://docs.google.com/spreadsheets/d/1JxEUYGeIJr_GaAnwlvuwT7JyXx9fI1BQMFuis9mdcBY/edit#gid=0)
