@@ -56,8 +56,17 @@ Maintained [here](https://docs.google.com/spreadsheets/d/1JxEUYGeIJr_GaAnwlvuwT7
 
 ### Future Plans:
 
-- reverse engineer the real-world parameters
-- run sensitivity analysis (15-75 beds) to find optimum # of beds which is not turning away clients and also not underutilized.
+- further data analysis:
+	- we need to identify the impact of increasing shelter beds to monthly "returned clients" (it should be dropping), and to available capacity ("it should be increasing")
+	- the sweet spot # of beds will be when we are returning zero (or a tolerable number of) clients, while not having an excessive capacity.
+		- (short term) model the test_run_new.csv data into the excel sheet [here](https://github.com/sim-team-z/learning-simpy/blob/main/notebooks/misc/xlsx-pivots-datasummary-test_run_new.xlsx) to run pivots on the data to see monthly trends.
+		- long term the analysis needs to be incporporated as part of the model (as its very tricky doing the delta math in excel for multi year runs)
+- reverse engineer the real-world parameters.
+	- essentially, we need to tune parameters (like arrival rates, or stay durations etc) so that the steady state (year3) results mimic real-world numbers of 15/20 clients turned away.
+	- when we accomplish this sweet spot, we know we have tuned our parameters correctly. 
+- run sensitivity analysis 
+	- we now lock the reverse-engineered parameters 
+	- run the model using (15-75 beds) to find optimum # of beds which is not turning away clients and also not underutilized.
 - model stay duration for mental impacted patients based on beta distribution
 - use advanced NHPP code (bottom of final v8 jupyter notebook) to model incoming client arrivals
 
